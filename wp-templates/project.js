@@ -26,6 +26,7 @@ export default function Component(props) {
   const { title, summary, contentArea } = props.data.project.projectFields;
   return (
     <>
+    <h1>This is a project template</h1>
       <SEO
         title={`${title} - ${props?.data?.generalSettings?.title}`}
         imageUrl={featuredImage?.node?.sourceUrl}
