@@ -38,6 +38,7 @@ export default function Page() {
       <Header menuItems={primaryMenu} />
 
       <Main>
+        <h1> This is where all the projects are displayed!</h1>
         <EntryHeader title="Projects" />
         <div className="container">
           <Projects projects={projectList} id="project-list" />
